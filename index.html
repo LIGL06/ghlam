@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <title>GHLAM</title>
+</head>
+<style>
+    html {
+        color: black !important;
+        font-family: 'Merriweather', serif;
+    }
+
+    a {
+        color: black !important
+    }
+</style>
+
+<body>
+    <nav>
+        <div class="nav-wrapper white">
+            <a href="#!" class="brand-logo">Logo</a>
+            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">PRODUCTS</a></li>
+                <li><a href="">HAIR & FACE BOX</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <ul class="sidenav" id="mobile-demo">
+        <li><a href="">HOME</a></li>
+        <li><a href="">ABOUT</a></li>
+        <li><a href="">PRODUCTS</a></li>
+        <li><a href="">HAIR & FACE BOX</a></li>
+        <li><a href="">CONTACT</a></li>
+    </ul>
+
+    <section id="home">
+        <div class="row">
+            <div class="col s12 m4 offset-m4">
+                <div class="card-panel indigo darken-4 center">
+                    <h5 class="white-text">GET YOUR<br>HAIR & FACE BOX
+                    </h5>
+                    <a class="waves-effect waves-light btn yellow">SUBSCRIBE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products" class="indigo darken-4 white-text">
+        <div class="container">
+            <div class="row">
+                <div class="col m12">
+                    <h5>FEATURED PRODUCTS</h5>
+                    <div class="carousel">
+                        <a class="carousel-item" href="#one!"><img src="https://www.kiehls.com/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw9da72b8b/Kiehls_ECOMM_2000/SKIN_CARE/Moisturizers/Ultra_Facial_Moisturizer_SPF_30/Ultra_Facial_Moisturizer_SPF_30_3605970387891_4.2fl.oz..jpg"></a>
+                        <a class="carousel-item" href="#two!"><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/30/elle-editors-moisturizers-clinique-moisture-surge-intense-gesichtscreme-30ml_1.jpg"></a>
+                        <a class="carousel-item" href="#three!"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-beauty-facemoisturizers-estelleneutrogenahydroblast-1519405972.jpg"></a>
+                        <a class="carousel-item" href="#four!"><img src="https://cdn.shopify.com/s/files/1/1986/6431/products/New_Face_Lotion.jpg?v=1527499291"></a>
+                        <a class="carousel-item" href="#five!"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-beauty-facemoisturizers-drjartmattie-1519405971.jpg"></a>
+                        <a class="carousel-item" href="#five!"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-beauty-facemoisturizers-aquacreamalyssa-1519405971.jpg"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="indigo darken-4">
+        <div class="container">
+            <div class="row">
+                <a class="waves-effect waves-light btn yellow"><h5>ABOUT US</h5></a>
+                <div class="col m12">
+                    <p class="white-text">"Ghlam, Hair & Face" is a company that provides "hair and face box subscriptions" with carefully selected products
+                        from independent and upcoming brands that deliver good quality.
+                    </p>
+                </div>
+                <div class="col m6 offset-m6">
+                    We provide a subscription service to fulfill your needs for maintanance
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+            $('.carousel').carousel({
+                indicators: true,
+                numVisible: 5
+            });
+        });
+    </script>
+</body>
+
+</html>
