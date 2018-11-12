@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <title>GHLAM</title>
 </head>
@@ -13,19 +14,47 @@
     html {
         color: black !important;
         font-family: 'Merriweather', serif;
+        text-transform: uppercase!important;
+        background: #263238 !important;
     }
 
     a {
-        color: black !important
+        color: black!important
+    }
+    nav, .nav-wrapper{
+        background: #ccc!important;
+        color:white;
+    }
+    #home{
+    background-image: url("https://res.cloudinary.com/hammock-software/image/upload/v1541972117/bg01_z9npuo.jpg");
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #subscription{
+    background-image: url("https://res.cloudinary.com/hammock-software/image/upload/v1541972115/bg02_flifgx.jpg");
+    height: 80vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    #box{
+    background-image: url("https://res.cloudinary.com/hammock-software/image/upload/v1541972122/bg03_wmwpmt.jpg");
+    height: 95vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     }
 </style>
 
 <body>
-    <nav>
-        <div class="nav-wrapper white">
-            <a href="#!" class="brand-logo">Logo</a>
+    <nav style="height:100px">
+        <div class="nav-wrapper">
+            <a href="#!" class="brand-logo"><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_100/v1541972119/logo_fvkmho.png"
+                    alt="responsive-img"></a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
+            <ul class="right hide-on-med-and-down" style="margin-top:20px">
                 <li><a href="">HOME</a></li>
                 <li><a href="">ABOUT</a></li>
                 <li><a href="">PRODUCTS</a></li>
@@ -44,59 +73,420 @@
     </ul>
 
     <section id="home">
-        <div class="row">
-            <div class="col s12 m4 offset-m4">
-                <div class="card-panel indigo darken-4 center">
-                    <h5 class="white-text">GET YOUR<br>HAIR & FACE BOX
-                    </h5>
-                    <a class="waves-effect waves-light btn yellow">SUBSCRIBE</a>
+        <div class="parallax-container">
+            <div class="row">
+                <div class="col s12 l4 offset-l4">
+                    <div class="card-panel blue-grey darken-4 center" style="margin-top:30vh">
+                        <h2 class="white-text" style="margin-bottom:-20px">GET YOUR</h2>
+                        <h4 class="white-text">HAIR & FACE BOX</h4>
+                    </div>
+                    <a class="waves-effect waves-light btn yellow col offset-l4" style="margin-top:-30px">SUBSCRIBE</a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="products" class="indigo darken-4 white-text">
+    <section id="products" class=" blue-grey darken-4 white-text">
         <div class="container">
             <div class="row">
                 <div class="col m12">
                     <h5>FEATURED PRODUCTS</h5>
                     <div class="carousel">
-                        <a class="carousel-item" href="#one!"><img src="https://www.kiehls.com/on/demandware.static/-/Sites-kiehls-master-catalog/default/dw9da72b8b/Kiehls_ECOMM_2000/SKIN_CARE/Moisturizers/Ultra_Facial_Moisturizer_SPF_30/Ultra_Facial_Moisturizer_SPF_30_3605970387891_4.2fl.oz..jpg"></a>
-                        <a class="carousel-item" href="#two!"><img src="https://hips.hearstapps.com/ell.h-cdn.co/assets/16/30/elle-editors-moisturizers-clinique-moisture-surge-intense-gesichtscreme-30ml_1.jpg"></a>
-                        <a class="carousel-item" href="#three!"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-beauty-facemoisturizers-estelleneutrogenahydroblast-1519405972.jpg"></a>
-                        <a class="carousel-item" href="#four!"><img src="https://cdn.shopify.com/s/files/1/1986/6431/products/New_Face_Lotion.jpg?v=1527499291"></a>
-                        <a class="carousel-item" href="#five!"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-beauty-facemoisturizers-drjartmattie-1519405971.jpg"></a>
-                        <a class="carousel-item" href="#five!"><img src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/elle-beauty-facemoisturizers-aquacreamalyssa-1519405971.jpg"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954117/01-fixed_wzmowu.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954135/02-fixed_njtj7m.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954144/03-fixed_fuwqvs.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/04-fixed_rr4fnr.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954125/05-fixed_dckiuy.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/06-fixed_q5ddfb.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/07-fixed_uoz7ti.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/08-fixed_zu6zcn.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/09-fixed_pl2qi7.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/10-fixed_d1lg7e.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/11-fixed_cdsl97.png"></a>
+                        <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/12-fixed_lbfj2d.png"></a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="about" class="indigo darken-4">
+    <section id="about" class="blue-grey darken-4" style="text-transform:none">
         <div class="container">
             <div class="row">
-                <a class="waves-effect waves-light btn yellow"><h5>ABOUT US</h5></a>
+                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">
+                    ABOUT US
+                </a>
                 <div class="col m12">
-                    <p class="white-text">"Ghlam, Hair & Face" is a company that provides "hair and face box subscriptions" with carefully selected products
-                        from independent and upcoming brands that deliver good quality.
+                    <p class="white-text">"Ghlam, Hair & Face" is a company that provides "hair and face box
+                        subscriptions" with carefully selected products
+                        from independent and upcoming brands that deliver great quality.
                     </p>
-                </div>
-                <div class="col m6 offset-m6">
-                    We provide a subscription service to fulfill your needs for maintanance
                 </div>
             </div>
         </div>
     </section>
+
+    <section id="subscription" class="grey lighten-1" style="text-transform:none">
+        <div class="container">
+            <div class="row">
+                <div class="col m6 offset-m6 black-text">
+                    <p style="padding-top:150px">We provide a subscription service to fulfill your needs for
+                        maintaining a healthy and beautiful
+                        hair and skin whithout worrying about spending haours for the perfect selection that you need.
+                        This service includes:</p>
+                    <ul style="padding-bottom: 100px">
+                        <li>Free online personal consultation.</li>
+                        <li>A variety of carefully selected quality products from a variety of price ranges.</li>
+                        <li>Home and Office delivery available.</li>
+                        <li>Gift wrapping available for those special deliveries</li>
+                        <li>Post-sale follow up for receiving feedback and rearrange your subscription if needed.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="products">
+        <div class="container">
+            <div class="row">
+                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">
+                    PRODUCTS
+                </a>
+                <div class="col l12" style="padding-top:20px">
+                    <div class="col l1 center offset-l1">
+                        <span class="white-text"><img src="https://res.cloudinary.com/hammock-software/image/upload/v1541972115/icon03_yqqee1.png"
+                                class="responsive-img">All Items</span>
+                    </div>
+                    <div class="col l1 center offset-l3">
+                        <span class="white-text"><img src="https://res.cloudinary.com/hammock-software/image/upload/v1541972115/icon01_a9mo5a.png"
+                                class="responsive-img">Hair Products</span>
+                    </div>
+                    <div class="col l1 center offset-l3">
+                        <span class="white-text"><img src="https://res.cloudinary.com/hammock-software/image/upload/v1541972115/icon02_cfqemz.png"
+                                class="responsive-img">Face Products</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="grey lighten-1">
+        <div class="container">
+            <div class="row" style="padding-top:10px;padding-bottom:10px">
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954117/01-fixed_wzmowu.png"
+                            class="responsive-img">
+                        <b>KIEHL'S</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Ultra Facial Moisturizer sunscreen
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954135/02-fixed_njtj7m.png"
+                            class="responsive-img">
+                        <b>KIEHL'S</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Ultra Facial Oil-Free lotion
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954144/03-fixed_fuwqvs.png"
+                            class="responsive-img">
+                        <b>KIEHL'S</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Ultra Facial cream
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/04-fixed_rr4fnr.png"
+                            class="responsive-img">
+                        <b>KIEHL'S</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Breakout Control Acne Treatment
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954125/05-fixed_dckiuy.png"
+                            class="responsive-img">
+                        <b>KIEHL'S</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Facial Fuel for Men
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/06-fixed_q5ddfb.png"
+                            class="responsive-img">
+                        <b>KIEHL'S</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Ultra Facial Oil-free gel cream
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/07-fixed_uoz7ti.png"
+                            class="responsive-img">
+                        <b>amarte</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Aqua cream
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/08-fixed_zu6zcn.png"
+                            class="responsive-img">
+                        <b>Clinique</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Moisture surge intense
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/09-fixed_pl2qi7.png"
+                            class="responsive-img">
+                        <b>Dr.Jart+</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Ceramidin derma care
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/10-fixed_d1lg7e.png"
+                            class="responsive-img">
+                        <b>Neutrogena</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Hydro Boost water gel
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/11-fixed_cdsl97.png"
+                            class="responsive-img">
+                        <b>Hope</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            Performance Moisturizer
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+                <div class="col s12 m2 center">
+                    <div class="card-panel white">
+                        <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/12-fixed_lbfj2d.png"
+                            class="responsive-img">
+                        <b>Origins</b>
+                        <p class="grey-text center" style="font-size:10px;margin-top:0px">
+                            High-potency night-a-mins
+                        </p>
+                        <small class="chip" style="font-size:10px">$19.25</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="container">
+            <div class="row">
+                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">
+                    HAIR & FACE BOX
+                </a>
+                <div class="col m12 center white-text" style="text-transform:none">
+                    <p>Different kind of packages, either focus only on hair products, face products or a combination
+                        of both. <br> Different tiers that offer a different quantity and type of products in different
+                        price ranges.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="box">
+        <div class="container">
+            <div class="row">
+                <div class="col m6 offset-m6">
+                    <h2>NORMAL TIER</h2>
+                    <small style="font-size:1.5rem;margin-top:-80px">(5 products)</small>
+                </div>
+                <div class="col m6 offset-m6 white-text" style="padding-top:150px">
+                    <h2>PREMIUM TIER</h2>
+                    <small style="font-size:1.5rem;margin-top:-80px">(8 products)</small>
+                </div>
+                <div class="col m6 offset-m6" style="padding-top:130px;padding-bottom:70px">
+                    <h2>DELUXE TIER</h2>
+                    <small style="font-size:1.5rem;margin-top:-80px">(15 products)</small>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class=" blue-grey darken-4" style="height:80vh">
+        <div class="container">
+            <div class="row">
+                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">CONTACT</a>
+                <div class="col m12 card-panel">
+                    <div class="white center">
+                        <h5 class="black-text" style="padding-top:50px;padding-bottom:30px">HAVE ANY QUERIES? <br> JUST
+                            CONTACT US!
+                        </h5>
+                        <span style="padding-right:20px">
+                            <i class="fa fa-pencil fa-3x yellow-text"></i>
+                        </span>
+                        <span style="padding-right:20px">
+                            <i class="fa fa-envelope fa-3x yellow-text"></i>
+                        </span>
+                        <span>
+                            <i class="fa fa-globe fa-3x yellow-text"></i>
+                        </span>
+                        <form class="col m12" style="padding-top: 30px">
+                            <div class="row">
+                                <div class="input-field col m6">
+                                    <input type="email" class="validate" required>
+                                    <label for="icon_prefix"><i class="fa fa-envelope"></i> Your email</label>
+                                </div>
+                                <div class="input-field col m6">
+                                    <input type="text" class="validate" required>
+                                    <label for="icon_prefix"><i class="fa fa-pencil"></i> Write your queries here</label>
+                                </div>
+                                <div class="input-field col m4 offset-m4">
+                                    <button type="submit" class="btn white black-text">Submit now <i class="fa fa-arrow-right"></i></button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+                <div class="col m12">
+                    <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954117/01-fixed_wzmowu.png"
+                        class="responsive-img col m2">
+                    <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954135/02-fixed_njtj7m.png"
+                        class="responsive-img col m2">
+                    <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954144/03-fixed_fuwqvs.png"
+                        class="responsive-img col m2">
+                    <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/04-fixed_rr4fnr.png"
+                        class="responsive-img col m2">
+                    <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954125/05-fixed_dckiuy.png"
+                        class="responsive-img col m2">
+                    <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954126/06-fixed_q5ddfb.png"
+                        class="responsive-img col m2">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="brands" class="white" style="padding-bottom:20px">
+        <div class="container">
+            <div class="row">
+                <div class="col m4">
+                    <h2>popular brands</h2>
+                    <small class="grey-text">Popular brands from world leading industries. <br> we have written example
+                        text for over 40 industry sectors</small>
+                </div>
+                <div class="col m8" style="padding-top:80px">
+                    <div class="row">
+                        <div class="col m3">
+                            <img src="http://www.frasersrewards.com/images/199Origins%20Logo_resize.jpg" class="responsive-img">
+                        </div>
+                        <div class="col m3">
+                            <img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0007/2946/brand.gif?itok=ZrEsqfoF"
+                                class="responsive-img">
+                        </div>
+                        <div class="col m3">
+                            <img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/042014/elle.png?itok=e-O8O16U"
+                                class="responsive-img">
+                        </div>
+                        <div class="col m3">
+                            <img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0005/6550/brand.gif?itok=gX4yzvCf"
+                                class="responsive-img">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="page-footer  blue-grey darken-4">
+        <div class="container">
+            <div class="row">
+                <div class="col l9" style="font-size:12px">
+                    <div class="col l3 s12">
+                        <p class="grey-text"><i class="fa fa-globe"></i> we have worlwide shipping
+                            facilities</p>
+                    </div>
+                    <div class="col l3 s12">
+                        <p class="grey-text"><i class="fa fa-archive"></i> free shipping*</p>
+                    </div>
+                    <div class="col l3 s12">
+                        <p class="grey-text"><i class="fa fa-arrow-circle-o-left"></i> Hassle free
+                            return policies</p>
+                    </div>
+                    <div class="col l3 s12">
+                        <p class="grey-text">We accept all
+                            leading cards</p>
+                        <i class="fa fa-cc-diners-club fa-2x"></i>
+                        <i class="fa fa-cc-amex fa-2x"></i>
+                        <i class="fa fa-cc-mastercard fa-2x"></i>
+                        <i class="fa fa-cc-visa fa-2x"></i>
+                    </div>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Social Media</h5>
+                    <div class="row">
+                        <div class="col m2">
+                            <a href="#!"><i class="fa fa-youtube fa-2x yellow-text"></i></a>
+                        </div>
+                        <div class="col m2">
+                            <a href="#!"><i class="fa fa-facebook fa-2x yellow-text"></i></a>
+                        </div>
+                        <div class="col m2">
+                            <a href="#!"><i class="fa fa-twitter fa-2x yellow-text"></i></a>
+                        </div>
+                        <div class="col m2">
+                            <a href="#!"><i class="fa fa-instagram fa-2x yellow-text"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container" style="text-transform:none;font-size:10px">
+                © 2018 GHLAM
+                <a class="grey-text text-lighten-4 right" href="mailto:luis.garcialuna@outlook.com">Made by:
+                    luis.garcialuna@outlook.com</a>
+            </div>
+        </div>
+    </footer>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script>
         $(document).ready(function () {
             $('.sidenav').sidenav();
+            $('.parallax').parallax();
             $('.carousel').carousel({
-                indicators: true,
-                numVisible: 5
+                indicators: false,
+                numVisible: 8
             });
         });
     </script>
