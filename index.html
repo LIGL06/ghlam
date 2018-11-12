@@ -49,27 +49,29 @@
 </style>
 
 <body>
-    <nav style="height:100px">
-        <div class="nav-wrapper">
-            <a href="#!" class="brand-logo"><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_100/v1541972119/logo_fvkmho.png"
-                    alt="responsive-img"></a>
-            <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down" style="margin-top:20px">
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">PRODUCTS</a></li>
-                <li><a href="">HAIR & FACE BOX</a></li>
-                <li><a href="">CONTACT</a></li>
-            </ul>
-        </div>
-    </nav>
+    <div class="navbar-fixed">
+        <nav style="height:100px">
+            <div class="nav-wrapper">
+                <a href="#!" class="brand-logo"><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_100/v1541972119/logo_fvkmho.png"
+                        alt="responsive-img"></a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="fa fa-bars fa-4x"></i></a>
+                <ul class="right hide-on-med-and-down" style="margin-top:20px">
+                    <li><a href="#home">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#products">PRODUCTS</a></li>
+                    <li><a href="#box">HAIR & FACE BOX</a></li>
+                    <li><a href="#contact">CONTACTO</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <ul class="sidenav" id="mobile-demo">
-        <li><a href="">HOME</a></li>
-        <li><a href="">ABOUT</a></li>
-        <li><a href="">PRODUCTS</a></li>
-        <li><a href="">HAIR & FACE BOX</a></li>
-        <li><a href="">CONTACT</a></li>
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#about">ABOUT</a></li>
+        <li><a href="#products">PRODUCTS</a></li>
+        <li><a href="#box">HAIR & FACE BOX</a></li>
+        <li><a href="#contact">CONTACTO</a></li>
     </ul>
 
     <section id="home">
@@ -80,7 +82,7 @@
                         <h2 class="white-text" style="margin-bottom:-20px">GET YOUR</h2>
                         <h4 class="white-text">HAIR & FACE BOX</h4>
                     </div>
-                    <a class="waves-effect waves-light btn yellow col offset-l4" style="margin-top:-30px">SUBSCRIBE</a>
+                    <a class="waves-effect waves-light btn yellow col offset-s4" style="margin-top:-30px">SUBSCRIBE</a>
                 </div>
             </div>
         </div>
@@ -89,7 +91,7 @@
     <section id="products" class=" blue-grey darken-4 white-text">
         <div class="container">
             <div class="row">
-                <div class="col m12">
+                <div class="col s12">
                     <h5>FEATURED PRODUCTS</h5>
                     <div class="carousel">
                         <a class="carousel-item" href=""><img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954117/01-fixed_wzmowu.png"></a>
@@ -113,7 +115,7 @@
     <section id="about" class="blue-grey darken-4" style="text-transform:none">
         <div class="container">
             <div class="row">
-                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">
+                <a class="waves-effect waves-light btn yellow col offset-l5 offset-s3" style="margin-top:-30px;font-size:26px">
                     ABOUT US
                 </a>
                 <div class="col m12">
@@ -149,10 +151,10 @@
     <section id="products">
         <div class="container">
             <div class="row">
-                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">
+                <a class="waves-effect waves-light btn yellow col offset-l5 offset-s3" style="margin-top:-30px;font-size:26px">
                     PRODUCTS
                 </a>
-                <div class="col l12" style="padding-top:20px">
+                <div class="col l12 s4 offset-s4" style="padding-top:20px">
                     <div class="col l1 center offset-l1">
                         <span class="white-text"><img src="https://res.cloudinary.com/hammock-software/image/upload/v1541972115/icon03_yqqee1.png"
                                 class="responsive-img">All Items</span>
@@ -311,7 +313,7 @@
     <section>
         <div class="container">
             <div class="row">
-                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">
+                <a class="waves-effect waves-light btn yellow col offset-l5 offset-s2" style="margin-top:-30px;font-size:26px">
                     HAIR & FACE BOX
                 </a>
                 <div class="col m12 center white-text" style="text-transform:none">
@@ -325,7 +327,7 @@
 
     <section id="box">
         <div class="container">
-            <div class="row">
+            <div class="row hide-on-small-only">
                 <div class="col m6 offset-m6">
                     <h2>NORMAL TIER</h2>
                     <small style="font-size:1.5rem;margin-top:-80px">(5 products)</small>
@@ -345,7 +347,7 @@
     <section id="contact" class=" blue-grey darken-4" style="height:80vh">
         <div class="container">
             <div class="row">
-                <a class="waves-effect waves-light btn yellow col offset-l5" style="margin-top:-30px;font-size:26px">CONTACT</a>
+                <a class="waves-effect waves-light btn yellow col offset-l5 offset-s3" style="margin-top:-30px;font-size:26px">CONTACT</a>
                 <div class="col m12 card-panel">
                     <div class="white center">
                         <h5 class="black-text" style="padding-top:50px;padding-bottom:30px">HAVE ANY QUERIES? <br> JUST
@@ -362,11 +364,11 @@
                         </span>
                         <form class="col m12" style="padding-top: 30px">
                             <div class="row">
-                                <div class="input-field col m6">
+                                <div class="input-field col m6 s12">
                                     <input type="email" class="validate" required>
                                     <label for="icon_prefix"><i class="fa fa-envelope"></i> Your email</label>
                                 </div>
-                                <div class="input-field col m6">
+                                <div class="input-field col m6 s12">
                                     <input type="text" class="validate" required>
                                     <label for="icon_prefix"><i class="fa fa-pencil"></i> Write your queries here</label>
                                 </div>
@@ -377,7 +379,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="col m12">
+                <div class="col m12 hide-on-small-only">
                     <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954117/01-fixed_wzmowu.png"
                         class="responsive-img col m2">
                     <img src="https://res.cloudinary.com/hammock-software/image/upload/c_scale,h_500/v1541954135/02-fixed_njtj7m.png"
@@ -405,18 +407,18 @@
                 </div>
                 <div class="col m8" style="padding-top:80px">
                     <div class="row">
-                        <div class="col m3">
+                        <div class="col m3 s6">
                             <img src="http://www.frasersrewards.com/images/199Origins%20Logo_resize.jpg" class="responsive-img">
                         </div>
-                        <div class="col m3">
+                        <div class="col m3 s6">
                             <img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0007/2946/brand.gif?itok=ZrEsqfoF"
                                 class="responsive-img">
                         </div>
-                        <div class="col m3">
+                        <div class="col m3 s6">
                             <img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/042014/elle.png?itok=e-O8O16U"
                                 class="responsive-img">
                         </div>
-                        <div class="col m3">
+                        <div class="col m3 s6">
                             <img src="https://botw-pd.s3.amazonaws.com/styles/logo-thumbnail/s3/0005/6550/brand.gif?itok=gX4yzvCf"
                                 class="responsive-img">
                         </div>
